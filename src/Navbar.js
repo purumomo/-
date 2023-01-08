@@ -24,6 +24,15 @@ const items = [
   getItem("舰队管理", "1", <PieChartOutlined />),
   getItem("游戏官网", "2", <DesktopOutlined />),
   getItem("交易平台", "3", <ContainerOutlined />),
+  getItem("找物品", "3", <ContainerOutlined />),
+  getItem("跑商挖矿", "4", <ContainerOutlined />),
+  getItem("交易平台", "5", <ContainerOutlined />),
+  getItem("交易平台", "6", <ContainerOutlined />),
+  getItem("交易平台", "7", <ContainerOutlined />),
+  getItem("交易平台", "8", <ContainerOutlined />),
+  getItem("交易平台", "9", <ContainerOutlined />),
+  getItem("交易平台", "10", <ContainerOutlined />),
+  getItem("交易平台", "11", <ContainerOutlined />),
   getItem("Navigation Two", "sub2", <AppstoreOutlined />, [
     getItem("Option 9", "9"),
     getItem("Option 10", "10"),
@@ -61,6 +70,7 @@ const Nav = () => {
         inlineCollapsed={collapsed}
         items={items}
       />
+
     </div>
   );
 };

@@ -1,5 +1,11 @@
 .Nav{
 background-color: #282c34;
+/* position: fixed;
+top: 0;
+left: 0;
+margin-left: 200px; */
+width: 100px;
+height: 600px;
 }
 
 .ant-btn-primary{
