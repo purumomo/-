@@ -19,13 +19,7 @@ function App() {
           <Nav />
         </div>
         <div className="Content">
-          <Card/>
-          <a href="https://robertsspaceindustries.com/">官方网站</a>
-          <a href="https://www.erkul.games/live/ships">改船网站</a>
-          <a href="https://ccugame.app">ccugame</a>
-          <a href="https://hangar.link/">看船图的网站</a>
-          <a href="https://www.sccsgo.com/">交易平台</a>
-          <a href="https://uexcorp.space/">跑商和挖矿</a>
+          <Card />
         </div>
       </div>
     </div>

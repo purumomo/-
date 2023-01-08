@@ -38,16 +38,38 @@
 
 .C{
     display: flex;
+    width:100%;
+    height: 100%;
 }
 .Nav, .Content{
   width: 50%;
+  
 }
+
+.Nav{
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 16px; */
+  height: 64px;
+  float: left;
+  position: absolute;
+  left: 0;
+}
+
 .Content {
   background-color: #282c34;
   min-height: 500px;
   font-size: calc(10px + 2vmin);
   color: white;
-  display: inline-block;
-  width: 100%;
+  width: 90%;
   height: 100%;
+  position: absolute;
+  right: 0;
+
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
 }
