@@ -52,12 +52,13 @@ const Nav = () => {
     setCollapsed(!collapsed);
   };
   return (
-    <div
+    <div className="Nav-c"
       style={{
-        width: 256,
+        width: 212,
+        height:100,
       }}
     >
-      {/* <Button
+      <Button
         type="primary"
         onClick={toggleCollapsed}
         style={{
@@ -65,7 +66,7 @@ const Nav = () => {
         }}
       >
         {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-      </Button> */}
+      </Button>
       <Menu
         defaultSelectedKeys={["1"]}
         defaultOpenKeys={["sub1"]}

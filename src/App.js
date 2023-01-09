@@ -2,9 +2,10 @@ import './App.css';
 import './Nav.css';
 import React, { useState } from "react";
 import Nav from './Navbar.js';
-import G from './Grid.js';
 import Search from './Search.js';
 import Card  from './Card.js';
+
+
 function App() {
   return (
     <div className="App">

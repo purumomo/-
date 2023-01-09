@@ -16,10 +16,6 @@ const App = () => (
     <div className="card">
       <a href="https://robertsspaceindustries.com/">
         <Card
-          style={{
-            width: 300,
-            height: "auto",
-          }}
           cover={
             <img
               alt="example"
@@ -36,15 +32,8 @@ const App = () => (
     <div className="card">
       <a href="https://www.erkul.games/live/ships">
         <Card
-          style={{
-            width: 300,
-            height: "auto",
-          }}
           cover={
-            <img
-              alt="example"
-              src="https://preview.redd.it/nhea88lofsu71.jpg?auto=webp&s=9ad2600e688aeec02017f6e4d15b05fa1a0ffccb"
-            />
+            <img alt="example" src="https://i.postimg.cc/Hs1brypy/image.png" />
           }
         >
           <Meta title="舰装火力装配一览" description="查看飞船配置武器" />
@@ -55,11 +44,8 @@ const App = () => (
     <div className="card">
       <a href="https://ccugame.app">
         <Card
-          style={{
-            width: 300,
-          }}
           cover={
-            <img alt="example" src="https://i.redd.it/qqz9qvawm9l71.jpg" />
+            <img alt="example" src="https://i.postimg.cc/sxdKfH6B/CCU.png" />
           }
         >
           <Meta title="CCU计算器" description="折扣计算网站" />
@@ -70,14 +56,8 @@ const App = () => (
     <div className="card">
       <a href="https://hangar.link/">
         <Card
-          style={{
-            width: 300,
-          }}
           cover={
-            <img
-              alt="example"
-              src="https://external-preview.redd.it/q7q1o4XRg8E6hekYhibGKqQML_lyF5_y6Iqz5O56Rl8.jpg?auto=webp&s=0dba366a39c197a665286c91340045a2da0462bf"
-            />
+            <img alt="example" src="https://i.postimg.cc/438xTr35/image.png" />
           }
         >
           <Meta title="舰船仓库" description="持有船只一览" />
@@ -88,14 +68,8 @@ const App = () => (
     <div className="card">
       <a href="https://www.sccsgo.com/">
         <Card
-          style={{
-            width: 300,
-          }}
           cover={
-            <img
-              alt="example"
-              src="https://sccsgo.oss-cn-shanghai.aliyuncs.com/bb8a81c6ee694db1a4a366a268929802.png"
-            />
+            <img alt="example" src="https://i.postimg.cc/15ZPb9HS/image.png" />
           }
         >
           <Meta title="交易平台" description="可供各类交易" />
@@ -106,9 +80,72 @@ const App = () => (
     <div className="card">
       <a href="https://uexcorp.space/">
         <Card
-          style={{
-            width: 300,
-          }}
+          cover={
+            <img
+              alt="example"
+              src="https://i.postimg.cc/T16SNPXH/minning.png"
+            />
+          }
+        >
+          <Meta title="跑商和挖矿" description="可供参考" />
+        </Card>
+      </a>
+    </div>
+
+    <div className="card">
+      <a href="https://www.starship42.com/">
+        <Card
+          cover={
+            <img alt="example" src="https://i.postimg.cc/NFts8YCQ/image.png" />
+          }
+        >
+          <Meta title="舰船模型修改" description="可自定义舰船模组" />
+        </Card>
+      </a>
+    </div>
+
+    <div className="card">
+      <a href="http://www.starcitizenzw.com/">
+        <Card
+          cover={
+            <img alt="example" src="https://i.postimg.cc/X7w2DW2T/image.png" />
+          }
+        >
+          <Meta title="汉化组官网" description="文本汉化" />
+        </Card>
+      </a>
+    </div>
+
+    <div className="card">
+      <a href="https://biaoju.site/star-refuge/">
+        <Card
+          cover={
+            <img alt="example" src="https://i.postimg.cc/PJKCPPXg/image.png" />
+          }
+        >
+          <Meta title="避难所官网" description="持续跟踪" />
+        </Card>
+      </a>
+    </div>
+
+    <div className="card">
+      <a href="https://uexcorp.space/">
+        <Card
+          cover={
+            <img
+              alt="example"
+              src="https://sccsgo.oss-cn-shanghai.aliyuncs.com/bb8a81c6ee694db1a4a366a268929802.png"
+            />
+          }
+        >
+          <Meta title="跑商和挖矿" description="可供参考" />
+        </Card>
+      </a>
+    </div>
+
+    <div className="card">
+      <a href="https://uexcorp.space/">
+        <Card
           cover={
             <img
               alt="example"
