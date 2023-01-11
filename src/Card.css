@@ -39,3 +39,8 @@
     min-height: 250px;
     object-fit: cover;
 }
+
+.ant-card .ant-card-body{
+    /* background-color:dimgray; */
+    padding:14px;
+}

@@ -12,15 +12,17 @@ function App() {
       <header className="App-header">
         <p>星际公民资源导航站</p>
       </header>
-      <div className="Search">
-        <Search />;
-      </div>
       <div className="C">
         <div className="Nav">
           <Nav />
         </div>
-        <div className="Content">
-          <Card />
+        <div className="right">
+          <div className="Search">
+            <Search />;
+          </div>
+          <div className="Content">
+            <Card />
+          </div>
         </div>
       </div>
     </div>

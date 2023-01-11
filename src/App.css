@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   /* min-height: 100px; */
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@
 }
 
 .Search{
-  background-color:black;
+  background-color:#282c34;
   width:100%;
   align-items: center;
   padding: 20px;
@@ -54,6 +54,8 @@
   /* position: absolute; */
   /* left: 0; */
   width: 15%;
+  background-color: black;
+  
 }
 
 .Content {
