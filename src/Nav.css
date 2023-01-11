@@ -1,8 +1,12 @@
 .Nav{
-background-color: black;
-
-/* width: 100px; */
-/* height: 600px; */
+background-color: #001529;
+top: 100px;
+width: 11.5%;
+height: 100%;
+/* position: fixed; */
+    /* bottom: 0px;
+    left: 0px; */
+        z-index: 3;
 }
 
 

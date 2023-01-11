@@ -21,24 +21,14 @@ function getItem(label, key, icon, children, type) {
   };
 }
 const items = [
-  getItem("游戏官网", "1", <PieChartOutlined />),
-  getItem("舰队管理", "2", <DesktopOutlined />),
-  getItem("交易平台", "3", <ContainerOutlined />),
-  getItem("Navigation Two", "sub2", <AppstoreOutlined />, [
-    getItem("Option 9", "9"),
-    getItem("Option 10", "10"),
-    getItem("Submenu", "sub3", null, [
-      getItem("Option 11", "11"),
-      getItem("Option 12", "12"),
-    ]),
-  ]),
-  getItem("找物品", "3", <ContainerOutlined />),
-  getItem("跑商挖矿", "4", <ContainerOutlined />),
-  getItem("交易平台", "5", <ContainerOutlined />),
-  getItem("交易平台", "6", <ContainerOutlined />),
+  getItem("所有工具", "1", <PieChartOutlined />),
+  getItem("各类官网", "2", <PieChartOutlined />),
+  getItem("CCU计算", "3", <DesktopOutlined />),
+  getItem("舰船信息", "4", <ContainerOutlined />),
+  getItem("交易平台", "5", <AppstoreOutlined />), 
 ];
-
 const Nav = () => {
+  
   const [collapsed, setCollapsed] = useState(false);
   const toggleCollapsed = () => {
     setCollapsed(!collapsed);
@@ -67,8 +57,8 @@ const Nav = () => {
         inlineCollapsed={collapsed}
         items={items}
       />
-
     </div>
+    
   );
 };
 

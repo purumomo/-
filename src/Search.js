@@ -18,7 +18,7 @@ function SearchBar() {
          type="text"
          value={searchValue}
          onChange={(e) => setSearchValue(e.target.value)}
-         placeholder="请输入搜索关键字"
+         placeholder="百度知道"
        />
        <button type="submit" onClick={handleSearch}>
          搜索

@@ -5,18 +5,31 @@
     font-family: sans-serif;
 }
 
+.offical-Site{
+    background-color: #282c34;
+    color: white;
+    
+}
+
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
-    flex-wrap: wrap;
+    flex-wrap: flex;
     /* max-width: 1300px;
     width: 100%; */
     /* margin: auto; */
-    /* justify-content: space-between; */
     padding: 15px;
     /* width: 80%; */
     background-color: #282c34;
+    left: 115px;
+
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+        position: relative;
+        left: 210px;
     
 }
 
