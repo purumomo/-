@@ -9,9 +9,27 @@ height: 100%;
         z-index: 3;
 }
 
+.nav-item{
+    color: aliceblue;
+    background-color: #001529;
+    top: 100px;
+    width: 150px;
+    height: 50px;
+}
 
+.nav-item .path{
+    
+}
+
+.nav-menu .path{
+    
+}
             
 .ant-btn-primary{
     text-align: center;
     float:left;
+}
+
+.Anchor1{
+    background-color: #001529;
 }

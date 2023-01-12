@@ -1,65 +1,83 @@
 import React, { useState } from "react";
-
+import { FaBars, FaTimes } from "react-icons/fa";
+import {Link} from "react-scroll"
 import {
   AppstoreOutlined,
-  ContainerOutlined,
-  DesktopOutlined,
-  MailOutlined,
-  MenuFoldOutlined,
-  MenuUnfoldOutlined,
-  PieChartOutlined,
+  PoundCircleOutlined,
+  SettingOutlined,
+  GlobalOutlined,
+  ClusterOutlined,
 } from "@ant-design/icons";
-import { Button, Menu } from "antd";
 
-function getItem(label, key, icon, children, type) {
-  return {
-    key,
-    icon,
-    children,
-    label,
-    type,
-  };
-}
-const items = [
-  getItem("所有工具", "1", <PieChartOutlined />),
-  getItem("各类官网", "2", <PieChartOutlined />),
-  getItem("CCU计算", "3", <DesktopOutlined />),
-  getItem("舰船信息", "4", <ContainerOutlined />),
-  getItem("交易平台", "5", <AppstoreOutlined />), 
-];
-const Nav = () => {
-  
-  const [collapsed, setCollapsed] = useState(false);
-  const toggleCollapsed = () => {
-    setCollapsed(!collapsed);
-  };
+import "./Nav.css";
+
+const Navbar = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
+  const closeMenu = () => setClick(false);
+
   return (
-    <div className="Nav-c"
-      style={{
-        width: 212,
-        height:100,
-      }}
-    >
-      <Button
-        type="primary"
-        onClick={toggleCollapsed}
-        style={{
-          marginBottom: 16,
-        }}
-      >
-        {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-      </Button>
-      <Menu
-        defaultSelectedKeys={["1"]}
-        defaultOpenKeys={["sub1"]}
-        mode="inline"
-        theme="dark"
-        inlineCollapsed={collapsed}
-        items={items}
-      />
+    <div className="header">
+      <nav className="navbar">
+        <div className="hamburger" onClick={handleClick}></div>
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+            <Link
+              to="Anchor1"
+              spy={true}
+              smooth={true}
+              offset={-20}
+              duration={500}
+              onClick={closeMenu}
+            >
+              各类官网
+              <GlobalOutlined />
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="Anchor2"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+              onClick={closeMenu}
+            >
+              CCU计算
+              <ClusterOutlined />
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="Anchor3"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              onClick={closeMenu}
+            >
+              舰船信息
+              <SettingOutlined />
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="Anchor4"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              onClick={closeMenu}
+            >
+              交易平台
+              <PoundCircleOutlined />
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </div>
-    
   );
 };
 
-export default Nav;
+export default Navbar;

@@ -27,13 +27,13 @@ function App() {
             <Search />;
           </div>
           <div className="Content">
-            <h1>各类官网</h1>
+            <div id="Anchor1">各类官网</div>
             <Card />
-            <h1>CCU计算</h1>
+            <div id="Anchor2">CCU计算</div>
             <Ccu />
-            <h1>舰船信息</h1>
+            <div id="Anchor3">舰船信息</div>
             <Si />
-            <h1>交易平台</h1>
+            <div id="Anchor4">交易平台</div>
             <Tp />
           </div>
         </div>
