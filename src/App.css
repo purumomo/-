@@ -10,37 +10,49 @@ h1{
   left: 210px;
 }
 
+.App-header1{
+  height: 80px;
+}
+
 #Anchor1{
   background-color: #282c34;
-  color: #f8f8f8;
+  color: #696969;
   position: relative;
-      left: 12%;
+  left: 12%;
+  /* text-align: left;
+  overflow:visible; */
 }
 #Anchor2{
   background-color: #282c34;
-  color: #f8f8f8;
+  color: #696969;
     position: relative;
       left: 12%;
   
 }
 #Anchor3{
   background-color: #282c34;
-  color: #f8f8f8;
+  color: #696969;
     position: relative;
       left: 12%;
 }
 #Anchor4{
   background-color: #282c34;
-  color: #f8f8f8;
+  color:#696969;
     position: relative;
       left: 12%;
 }
 
+.Search{
+
+
+      /* position: relative; */
+      left: 100px;
+}
 
 
 form{
-  padding:100px;
-  height: 100%;
+  padding:25px;
+  height: 20%;
   /* position: relative; */
   left: 100px;
 }

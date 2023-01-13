@@ -12,6 +12,7 @@ import Tp from './trade-plat';
 function App() {
   return (
     <div className="App">
+      <header className="App-header1">block</header>
       <header className="App-header">
         <p>星际公民资源导航站</p>
         <div className="Noti">

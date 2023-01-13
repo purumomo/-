@@ -57,3 +57,9 @@
     /* background-color:dimgray; */
     padding:14px;
 }
+
+.ant-card:hover{
+    transition: transform .2s, box-shadow .2s;
+    transform: translateY(-4px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .1), -4px -4px 8px rgba(0, 0, 0, .1);
+}
