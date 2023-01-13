@@ -25,11 +25,11 @@ const Navbar = () => {
           <li className="nav-item">
             <Link
               to="Anchor1"
-              spy={true}
+              spy={false}
               smooth={true}
-              offset={-20}
+              offset={-100}
               duration={500}
-              onClick={closeMenu}
+              onClick={handleClick}
             >
               各类官网
               <GlobalOutlined />
@@ -40,7 +40,7 @@ const Navbar = () => {
               to="Anchor2"
               spy={true}
               smooth={true}
-              offset={0}
+              offset={-100}
               duration={500}
               onClick={closeMenu}
             >
@@ -53,7 +53,7 @@ const Navbar = () => {
               to="Anchor3"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-100}
               duration={500}
               onClick={closeMenu}
             >
@@ -66,7 +66,7 @@ const Navbar = () => {
               to="Anchor4"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-100}
               duration={500}
               onClick={closeMenu}
             >

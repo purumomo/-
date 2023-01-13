@@ -10,6 +10,34 @@ h1{
   left: 210px;
 }
 
+#Anchor1{
+  background-color: #282c34;
+  color: #f8f8f8;
+  position: relative;
+      left: 12%;
+}
+#Anchor2{
+  background-color: #282c34;
+  color: #f8f8f8;
+    position: relative;
+      left: 12%;
+  
+}
+#Anchor3{
+  background-color: #282c34;
+  color: #f8f8f8;
+    position: relative;
+      left: 12%;
+}
+#Anchor4{
+  background-color: #282c34;
+  color: #f8f8f8;
+    position: relative;
+      left: 12%;
+}
+
+
+
 form{
   padding:100px;
   height: 100%;
