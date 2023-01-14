@@ -8,7 +8,13 @@
 .offical-Site{
     background-color: #282c34;
     color: white;
-    
+}
+
+@media only screen and (max-device-width: 375px){
+    .card-grid{    
+        display: flex !important;
+        flex-wrap: wrap !important;
+    };
 }
 
 
@@ -24,12 +30,12 @@
     /* width: 80%; */
     background-color: #282c34;
     left: 115px;
-
-        width: 100%;
-        align-items: center;
-        padding: 20px;
-        position: relative;
-        left: 210px;
+     width: 100%;
+    align-items: center;
+     padding: 20px;
+     position: relative;
+    left: 210px;
+    height: 100%;
     
 }
 

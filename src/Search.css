@@ -29,3 +29,9 @@ button[type="submit"] {
     border-radius: 4px; */
     cursor: pointer;
 }
+
+@media only screen and (max-device-width: 375px){
+    .Search{
+        display: none;
+    }
+}

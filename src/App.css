@@ -10,6 +10,33 @@ h1{
   left: 210px;
 }
 
+@media only screen and (max-device-width: 375px){
+  .App-header {
+    text-align: left;    
+    padding: 20px;
+  }
+  .offical-Site{
+    position: relative;
+    margin-left: -220px;
+  }
+  .Nav{
+    display: none;
+  }
+  #Anchor1{
+    display: none;
+  }
+  #Anchor2{
+    display: none;
+  }
+  #Anchor3{
+    display: none;
+  }
+  #Anchor4{
+    display: none;
+  }
+}
+
+
 .App-header1{
   height: 80px;
 }
@@ -19,14 +46,14 @@ h1{
   color: #696969;
   position: relative;
   left: 12%;
-  /* text-align: left;
-  overflow:visible; */
+  width: 100%;
+  height: 100%;
 }
 #Anchor2{
   background-color: #282c34;
   color: #696969;
-    position: relative;
-      left: 12%;
+  position: relative;
+  left: 12%;
   
 }
 #Anchor3{
@@ -117,6 +144,7 @@ float: right;
     display: flex;
     width:100%;
     height: 100%;
+    background-color: #282c34;
     
 }
 
@@ -136,12 +164,14 @@ float: right;
   
 }
 
-.Content {
-  /* min-height: 500px; */
-  /* height: 100%; */
-  /* position: absolute; */
-  /* right: 0; */
-  /* display: flex; */
-  /* flex-direction: column;
-  align-items: center; */
+@media only screen and (max-device-width: 375px){
+  .Content {
+      min-height: 500px;
+      /* height: 100%; */
+      /* position: absolute; */
+      /* right: 0; */
+      /* display: flex; */
+      /* flex-direction: column;
+    align-items: center; */
+    }
 }

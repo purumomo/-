@@ -8,6 +8,19 @@ height: 100%;
     left: 0px; */
         z-index: 3;
 }
+@media only screen and (max-device-width: 375px) {
+    .Nav{
+        width: 10%;
+        display: none;
+    }
+    li.nav-item {
+        width: 90px;
+        height: 50px;
+        }
+    .nav-item::marker{
+        display: none;
+    }
+}
 
 .nav-item{
     color: aliceblue;
