@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Avatar, Card } from "antd";
 import "./Card.css";
+import imageU from "./img/CCU.png";
+<img src={imageU} />;
+
 
 const { Meta } = Card;
 
@@ -15,7 +18,7 @@ const App = () => (
               cover={
                 <img
                   alt="example"
-                  src="https://i.hd-r.cn/01a1e19a7bf950a63b328ceff9294b9a.png"
+                  src={imageU}
                 />
               }
             >

@@ -1,7 +1,9 @@
 import React,{useState} from "react";
+import { Link } from "react-router-dom";
 import { Avatar, Card } from "antd";
 import "./Card.css";
-
+import imageA from "./img/汉化.png";
+import imageB from "./img/避难所官网.png";
 
 const { Meta } = Card;
 
@@ -26,14 +28,7 @@ const App = () => (
 
         <div className="card">
           <a href="http://www.starcitizenzw.com/">
-            <Card
-              cover={
-                <img
-                  alt="example"
-                  src="https://i.hd-r.cn/2ad5bb08b5fb751c33e97c00d4d64946.png"
-                />
-              }
-            >
+            <Card cover={<img alt="example" src={imageA} />}>
               <Meta title="汉化组官网" description="文本汉化" />
             </Card>
           </a>
@@ -45,7 +40,7 @@ const App = () => (
               cover={
                 <img
                   alt="example"
-                  src="https://i.hd-r.cn/3ffff504e30f05d7513c902f43015611.png"
+                  src={imageB}
                 />
               }
             >
@@ -68,10 +63,7 @@ const App = () => (
             </Card>
           </a>
         </div>
-
-       
-           
-    </div>
+      </div>
     </div>
   </div>
 );

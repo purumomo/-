@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import { Avatar, Card } from "antd";
 import "./Card.css";
+import imageA from "./img/minning.png";
+import imageB from "./img/模型.png";
+import imageC from "./img/配船.png";
+import imageD from "./img/huoli.png";
+import imageE from "./img/机库.png";
 
 const { Meta } = Card;
 
@@ -8,17 +13,13 @@ const App = () => (
   <div className="top">
     <div className="offical-Site">
       <div className="card-grid">
-       
-
-        
-
         <div className="card">
           <a href="https://www.erkul.games/live/ships">
             <Card
               cover={
                 <img
                   alt="example"
-                  src="https://i.hd-r.cn/d2373d95f6ce5f9411d9440ea47ecb4b.png"
+                  src={imageD}
                 />
               }
             >
@@ -33,7 +34,7 @@ const App = () => (
               cover={
                 <img
                   alt="example"
-                  src="https://i.hd-r.cn/3f56f53c2010e0cd83081fe19d63d2a4.png"
+                  src={imageE}
                 />
               }
             >
@@ -44,25 +45,19 @@ const App = () => (
 
         <div className="card">
           <a href="https://uexcorp.space/">
-            <Card
-              cover={
-                <img
-                  alt="example"
-                  src="https://i.hd-r.cn/9e920e8a20d2159fb6965b06052ca6a9.png"
-                />
-              }
-            >
+            <Card cover={<img alt="example" src={imageA} />}>
               <Meta title="跑商和挖矿" description="可供参考" />
             </Card>
           </a>
         </div>
+
         <div className="card">
           <a href="https://www.starship42.com/">
             <Card
               cover={
                 <img
                   alt="example"
-                  src="https://i.hd-r.cn/cff7b1faa1312be4ef6a9f38e5545f3d.png"
+                  src={imageB}
                 />
               }
             >
@@ -77,7 +72,7 @@ const App = () => (
               cover={
                 <img
                   alt="example"
-                  src="https://i.hd-r.cn/7178332df56ef0d93f5fb562aed0ac93.png"
+                  src={imageC}
                 />
               }
             >
