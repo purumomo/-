@@ -22,7 +22,7 @@ const App = () => (
                 />
               }
             >
-              <Meta title="CCU计算器" description="折扣计算网站" />
+              <Meta title="CCU计算器" description="用于折扣计算叠叠乐" />
             </Card>
           </a>
         </div>

@@ -21,7 +21,7 @@ const App = () => (
                 />
               }
             >
-              <Meta title="官方网站" description="直接浏览游戏最新消息" />
+              <Meta title="官方网站" description="浏览最新消息" />
             </Card>
           </a>
         </div>
@@ -29,7 +29,7 @@ const App = () => (
         <div className="card">
           <a href="http://www.starcitizenzw.com/">
             <Card cover={<img alt="example" src={imageA} />}>
-              <Meta title="汉化组官网" description="文本汉化" />
+              <Meta title="汉化组官网" description="最新游戏内文本汉化" />
             </Card>
           </a>
         </div>
@@ -44,7 +44,7 @@ const App = () => (
                 />
               }
             >
-              <Meta title="避难所官网" description="持续跟踪" />
+              <Meta title="避难所官网" description="跟踪汉化组最新动态" />
             </Card>
           </a>
         </div>
@@ -59,7 +59,7 @@ const App = () => (
                 />
               }
             >
-              <Meta title="Wiki百科" description="可查询游戏背景设定" />
+              <Meta title="Wiki百科" description="查询游戏各种信息数据" />
             </Card>
           </a>
         </div>

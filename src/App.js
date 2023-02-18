@@ -1,6 +1,7 @@
 import './App.css';
 import './Nav.css';
 import React, { useState } from "react";
+import Footer from './Footer';
 import Nav from './Navbar.js';
 import Search from './Search.js';
 import Card  from './Offical-Card.js';
@@ -39,6 +40,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

@@ -23,7 +23,7 @@ const App = () => (
                 />
               }
             >
-              <Meta title="舰装火力装配一览" description="查看飞船配置武器" />
+              <Meta title="舰装火力装配一览" description="查询游戏内武器配置" />
             </Card>
           </a>
         </div>
@@ -38,7 +38,7 @@ const App = () => (
                 />
               }
             >
-              <Meta title="舰船仓库" description="持有船只一览" />
+              <Meta title="舰船仓库" description="同步后可查看自己的舰船整合信息" />
             </Card>
           </a>
         </div>
@@ -46,7 +46,7 @@ const App = () => (
         <div className="card">
           <a href="https://uexcorp.space/">
             <Card cover={<img alt="example" src={imageA} />}>
-              <Meta title="跑商和挖矿" description="可供参考" />
+              <Meta title="跑商和挖矿" description="查询游戏内任务详情" />
             </Card>
           </a>
         </div>
