@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <p>
-        &copy;  2012-2023 Copyright by Purumomo Ltd.
+        &copy;  2012-2023 Copyright by Purumomo.
       </p>
     </footer>
   );
