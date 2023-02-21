@@ -38,9 +38,9 @@ function App() {
             <div id="Anchor4">交易平台</div>
             <Tp />
           </div>
+          <Footer />
         </div>
       </div>
-      <Footer/>
     </div>
   );
 }

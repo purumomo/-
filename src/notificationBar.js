@@ -20,9 +20,8 @@ const App = () => {
       </Space>
     );
     api.open({
-      message: "Notification Title",
-      description:
-        'A function will be be called after the notification is closed (automatically after the "duration" time of manually).',
+      message: "各种相关群链接",
+      description: "星际公民 汉化交流2群:1004136763 / 星河避难所:696608010",
       btn,
       key,
       onClose: close,
@@ -32,7 +31,7 @@ const App = () => {
     <>
       {contextHolder}
       <Button type="primary" onClick={openNotification}>
-        打开通知栏
+        查看各种相关群
       </Button>
     </>
   );

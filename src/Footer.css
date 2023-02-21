@@ -3,6 +3,9 @@
     color: #fff;
     padding: 20px;
     margin:0;
+    position: relative;
+        left: 210px;
+            width: 100%;
 }
 
 .footer p{
